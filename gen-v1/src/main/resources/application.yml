@@ -1,0 +1,16 @@
+spring:
+  main:
+    # The bean 'dataSource', defined in class path resource [com/lyflexi/multitenant/config/DynamicDataSourceConfig.class], could not be registered. A bean with that name has already been defined in class path resource [org/springframework/boot/autoconfigure/jdbc/DataSourceConfiguration$Hikari.class] and overriding is disabled.
+    allow-bean-definition-overriding: true
+  datasource:
+    url: jdbc:mysql://10.43.138.190:3306/gen-receipt-number?useSSL=false
+    username: root
+    password: root
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  mapper-locations: classpath:mapper/*.xml # 如果有Mapper XML文件的话
+
+server:
+  port: 8080

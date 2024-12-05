@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyflexi.genv1.dao.DocumentRuleItemMapper">
+  <resultMap id="BaseResultMap" type="com.lyflexi.genv1.model.po.DocumentRuleItemPo">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="factory_code" jdbcType="VARCHAR" property="factoryCode" />
+    <result column="document_rule_id" jdbcType="BIGINT" property="documentRuleId" />
+    <result column="rule_item_code" jdbcType="VARCHAR" property="ruleItemCode" />
+    <result column="rule_value_code" jdbcType="VARCHAR" property="ruleValueCode" />
+    <result column="item_sort" jdbcType="INTEGER" property="itemSort" />
+    <result column="field_length" jdbcType="INTEGER" property="fieldLength" />
+    <result column="zeroing_rule_code" jdbcType="VARCHAR" property="zeroingRuleCode" />
+    <result column="filling_mode_code" jdbcType="VARCHAR" property="fillingModeCode" />
+    <result column="add_time" jdbcType="BIGINT" property="addTime" />
+    <result column="edit_time" jdbcType="BIGINT" property="editTime" />
+  </resultMap>
+  <sql id="Base_Column_List">
+
+  </sql>
+</mapper>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lyflexi.genv1.dao.DocumentRuleMapper">
+  <resultMap id="BaseResultMap" type="com.lyflexi.genv1.model.po.DocumentRulePo">
+    <id column="id" jdbcType="BIGINT" property="id" />
+    <result column="factory_code" jdbcType="VARCHAR" property="factoryCode" />
+    <result column="document_name_code" jdbcType="VARCHAR" property="documentNameCode" />
+    <result column="rule_type_code" jdbcType="VARCHAR" property="ruleTypeCode" />
+    <result column="enable_status" jdbcType="CHAR" property="enableStatus" />
+    <result column="describe" jdbcType="VARCHAR" property="describe" />
+    <result column="data_status" jdbcType="CHAR" property="dataStatus" />
+    <result column="add_user_name" jdbcType="VARCHAR" property="addUserName" />
+    <result column="add_user_code" jdbcType="VARCHAR" property="addUserCode" />
+    <result column="add_time" jdbcType="BIGINT" property="addTime" />
+    <result column="edit_user_name" jdbcType="VARCHAR" property="editUserName" />
+    <result column="edit_user_code" jdbcType="VARCHAR" property="editUserCode" />
+    <result column="edit_time" jdbcType="BIGINT" property="editTime" />
+    <result column="document_name" jdbcType="VARCHAR" property="documentName" />
+  </resultMap>
+  <sql id="Document_Rule_List">
+
+  </sql>
+</mapper>
