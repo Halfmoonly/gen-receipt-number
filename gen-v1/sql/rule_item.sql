@@ -1,4 +1,4 @@
--- 导出  表 byd_les_dev_business.t_sys_document_rule_item 结构
+-- 导出  表 t_sys_document_rule_item 结构
 CREATE TABLE IF NOT EXISTS `t_sys_document_rule_item` (
 	`id` BIGINT NOT NULL,
 	`factory_code` VARCHAR(32) NULL DEFAULT NULL,
@@ -19,7 +19,7 @@ CREATE TABLE IF NOT EXISTS `t_sys_document_rule_item` (
 	PRIMARY KEY (`id`)
 );
 
--- 正在导出表  byd_les_dev_business.t_sys_document_rule_item 的数据：249 rows
+-- 正在导出表 t_sys_document_rule_item 的数据：249 rows
 INSERT INTO `t_sys_document_rule_item` (`id`, `factory_code`, `document_rule_id`, `rule_item_code`, `rule_value_code`, `item_sort`, `field_length`, `zeroing_rule_code`, `filling_mode_code`, `add_time`, `edit_time`, `add_user_name`, `add_user_code`, `edit_user_name`, `edit_user_code`, `data_status`) VALUES
 	(1539798907746385921, '*', 1539798907712831489, 'variable', 'materialCode', 1, 2, NULL, NULL, '2024-01-07 07:19:04', '2024-01-07 07:19:04.999936', NULL, NULL, NULL, NULL, NULL),
 	(1540354863248105473, '*', 1539090570319302657, 'turnover', NULL, 4, 2, 'day', NULL, '2024-03-21 10:47:44', '2024-03-21 10:47:44', NULL, NULL, NULL, NULL, NULL),
