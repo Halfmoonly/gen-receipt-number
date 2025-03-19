@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS `t_sys_sequence_generator` (
 	UNIQUE `t_sys_sequence_generator_key_expire_key` (`key`, `expire`)
 );
 
--- 正在导出表  byd_les_dev_business.t_sys_sequence_generator 的数据：337 rows
+-- 正在导出表  t_sys_sequence_generator 的数据：337 rows
 INSERT INTO `t_sys_sequence_generator` (`id`, `factory_code`, `key`, `value`, `version`, `expire`, `data_status`, `add_user_id`, `add_time`, `edit_user_id`, `edit_time`, `add_user_name`, `add_user_code`, `edit_user_name`, `edit_user_code`) VALUES
 	(1809130413123141633, 'X165', 'les-core::document::sequence::drule_vitural_container_code', 9, 8, 1720195200000, 0, NULL, '2024-07-05 15:41:17.165', NULL, '2024-07-05 15:41:17.165', 'admin', '66666666', 'admin', '66666666'),
 	(1813026801674338305, 'SZ54', 'les-core::document::sequence::drule_vitural_container_code', 2, 1, 1721145600000, 0, NULL, '2024-07-16 09:44:08.587', NULL, '2024-07-16 09:44:08.587', '超级管理员', 'admin', '超级管理员', 'admin'),
