@@ -1,4 +1,4 @@
--- 导出  表 byd_les_dev_business.t_sys_document_rule 结构
+-- 导出  表 t_sys_document_rule 结构
 CREATE TABLE IF NOT EXISTS `t_sys_document_rule` (
 	`id` BIGINT NOT NULL,
 	`factory_code` VARCHAR(32) NULL DEFAULT NULL,
